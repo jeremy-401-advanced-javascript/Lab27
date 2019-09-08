@@ -5,7 +5,7 @@
 ### Author: Jeremy Lee
 
 ### Links and Resources
-* [submission PR](http://xyz.com)
+* [submission PR](https://github.com/jeremy-401-advanced-javascript/Lab27/pull/2)
 * [travis]([![Build Status](https://www.travis-ci.com/jeremy-401-advanced-javascript/Lab27.svg?branch=master)](https://www.travis-ci.com/jeremy-401-advanced-javascript/Lab27))
 * [front-end S3 AWS](http://react-lab26.s3-website-us-west-2.amazonaws.com/) (when applicable)
 * [front-end NETLIFY](https://epic-meitner-855c91.netlify.com/) (when applicable)
