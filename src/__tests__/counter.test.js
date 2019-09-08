@@ -1,6 +1,6 @@
 import React from 'react';
-import Enzyme, { shallow, render, mount } from "enzyme";
-import Adapter from "enzyme-adapter-react-16";
+import Enzyme, { shallow, render, mount } from 'enzyme';
+import Adapter from 'enzyme-adapter-react-16';
 Enzyme.configure({ adapter: new Adapter() });
 import renderer from 'react-test-renderer';
 
@@ -32,7 +32,7 @@ describe('<Counter />', () => {
     expect(displayElement.text()).toContain('0')
   })
 
-  it('displays correct number', () => {
+  it('displays correct number when incremented', () => {
     let component = mount(<Counter />);
     let incrementButton = component.find('.up-clicker');
     incrementButton.simulate('click');
@@ -40,12 +40,12 @@ describe('<Counter />', () => {
     expect(displayElement.text()).toContain('1')
   })
 
-  it('displays correct number', () => {
+  it('displays correct number when decremented', () => {
     let component = mount(<Counter />);
-    let decrementButton = component.find('.up-clicker');
+    let decrementButton = component.find('.down-clicker');
     decrementButton.simulate('click');
     let displayElement = component.find('span');
-    expect(displayElement.text()).toContain('1')
+    expect(displayElement.text()).toContain('-1')
   })
 
   it('renders corrently', () => {

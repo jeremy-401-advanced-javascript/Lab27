@@ -1,46 +1,32 @@
-# LAB - 
+# LAB - 27
 
-## Project Name
+## React Testing and Deployment
 
-### Author: Student/Group Name
+### Author: Jeremy Lee
 
 ### Links and Resources
 * [submission PR](http://xyz.com)
-* [travis](http://xyz.com)
-* [back-end](http://xyz.com) (when applicable)
-* [front-end](http://xyz.com) (when applicable)
-
-#### Documentation
-* [api docs](http://xyz.com) (API servers)
-* [jsdoc](http://xyz.com) (Server assignments)
-* [styleguide](http://xyz.com) (React assignments)
-
-### Modules
-#### `modulename.js`
-##### Exported Values and Methods
+* [travis]([![Build Status](https://www.travis-ci.com/jeremy-401-advanced-javascript/Lab27.svg?branch=master)](https://www.travis-ci.com/jeremy-401-advanced-javascript/Lab27))
+* [front-end S3 AWS](http://react-lab26.s3-website-us-west-2.amazonaws.com/) (when applicable)
+* [front-end NETLIFY](https://epic-meitner-855c91.netlify.com/) (when applicable)
 
 ###### `foo(thing) -> string`
 Usage Notes or examples
 
-###### `bar(array) -> array`
-Usage Notes or examples
-
-### Setup
-#### `.env` requirements
-* `PORT` - Port Number
-* `MONGODB_URI` - URL to the running mongo instance/db
-
 #### Running the app
-* `npm start`
+* `npm run start`
 * Endpoint: `/foo/bar/`
   * Returns a JSON object with abc in it.
-* Endpoint: `/bing/zing/`
-  * Returns a JSON object with xyz in it.
+
   
 #### Tests
 * How do you run tests?
+`npm test file-name`
 * What assertions were made?
-* What assertions need to be / should be made?
+  * 🤔 first assertion made is that the content can display proper text.
+  * 🤔 Second assertion made is that state actually increments to correct number
+  * 🤔valid snapshot
+
 
 #### UML
 Link to an image of the UML for your application and response to events
